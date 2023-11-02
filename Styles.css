@@ -1,0 +1,117 @@
+@font-face {
+    font-family:poppinscustom ;
+    src: url(Fonts/Poppins/Poppins-Medium.ttf);
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+  
+}
+
+#principal{
+
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 1px solid #858182;
+}
+
+
+#header{
+
+    width: 100%;
+    height: 100px;
+    background-color: #7a3a83;
+    font-family:poppinscustom ;
+    text-align: center;
+    line-height: 90px;
+    color: white;
+}
+
+.clearfix{
+
+    float: none;
+    clear: both;
+}
+
+#menu{
+
+    background-color: #edc3f3;
+}
+
+#menu ul li{
+
+   /* display: inline-block;*/
+   display: block;
+   float: left;
+   padding: 15px;
+   border: 1px solid #aa76b1;
+}
+
+#menu ul li a{
+    color: rgb(194, 141, 236);
+}
+
+#menu ul li:hover a{
+
+    color: white;
+
+}
+
+#menu ul li:hover{
+
+    background-color:#7a3a83 ;
+    cursor: pointer;
+
+}
+
+#contenedor{
+    float: left;
+    width: 69%;
+  
+}
+
+#lateral{
+
+    float: left;
+    width: 30%;
+    height: 1000px;
+    border: 1px solid #7a3a83;
+    }
+
+    #contenedor .caja{
+
+        width: 40%;
+        height: 200px;
+        background-color: pink;
+        border:  2px solid rgb(216, 93, 113);
+        color: white;
+        float: left;
+        margin: 2%;
+        margin-left: 45px;
+
+    }
+
+    #contenedor > h2{
+
+        text-align: center;
+        color: #7a3a83;
+        border: 1px solid #7a3a83;
+        padding: 15px;
+    }
+
+
+    #footer{
+
+        width: 100%;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        background-color: #aa76b1;
+        color:white;
+        
+
+    }
