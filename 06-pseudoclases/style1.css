@@ -1,0 +1,26 @@
+body{
+
+    background-color: #5151c5;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+ 
+ul li{
+
+    font-size: 20px;
+}
+ul li:first-child{
+
+    color: aqua;
+}
+
+ul li:nth-child(3){
+
+    color: yellow;
+}
+
+ul li:last-child{
+
+    color: gray;
+}
